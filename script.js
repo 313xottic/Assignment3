@@ -19,6 +19,9 @@ reset.addEventListener('click', function() {
   document.getElementById('answer1').innerText = `10`;
   document.getElementById('answer2').innerText = `25`;
   document.getElementById('answer3').innerText = `50`;
+  count1 = 10;
+  count2 = 25;
+  count3 = 50;
   button1.style.backgroundColor = '';
   button2.style.backgroundColor = '';
   button3.style.backgroundColor = '';
